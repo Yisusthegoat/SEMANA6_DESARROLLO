@@ -1,0 +1,16 @@
+.header {
+  margin-bottom: 24px;
+}
+
+.header h1 {
+  margin: 0 0 8px;
+  color: #082f49;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.05;
+}
+
+.header p {
+  max-width: 760px;
+  color: #475569;
+  font-size: 1.05rem;
+}

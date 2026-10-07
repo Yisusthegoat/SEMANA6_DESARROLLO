@@ -1,0 +1,12 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  color: #ffffff;
+  background: #0369a1;
+  border-radius: 6px;
+  padding: 0 18px;
+  font-weight: 800;
+  text-decoration: none;
+}

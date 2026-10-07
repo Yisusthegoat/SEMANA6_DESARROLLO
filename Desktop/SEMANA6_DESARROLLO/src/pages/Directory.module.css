@@ -1,0 +1,70 @@
+.toolbar {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 22px;
+}
+
+.searchLabel {
+  color: #0f172a;
+  font-weight: 800;
+}
+
+.toolbar input {
+  width: min(520px, 100%);
+  min-height: 44px;
+  color: #0f172a;
+  background: #ffffff;
+  border: 1px solid #9bd5ea;
+  border-radius: 6px;
+  padding: 0 12px;
+  font: inherit;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+}
+
+.state,
+.error {
+  color: #164e63;
+  background: #ecfeff;
+  border: 1px solid #67e8f9;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.error {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  color: #7f1d1d;
+  background: #fef2f2;
+  border-color: #fecaca;
+}
+
+.error p {
+  margin: 0;
+}
+
+.error button {
+  flex: 0 0 auto;
+  min-height: 40px;
+  color: #ffffff;
+  background: #b91c1c;
+  border: 0;
+  border-radius: 6px;
+  padding: 0 14px;
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+@media (max-width: 560px) {
+  .error {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

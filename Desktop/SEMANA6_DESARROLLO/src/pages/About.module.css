@@ -1,0 +1,12 @@
+.list {
+  display: grid;
+  gap: 12px;
+  max-width: 760px;
+  margin: 0;
+  padding-left: 22px;
+  color: #334155;
+}
+
+.list li::marker {
+  color: #0284c7;
+}
